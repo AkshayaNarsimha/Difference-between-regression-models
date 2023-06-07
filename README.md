@@ -9,6 +9,7 @@ DBSCAN as classification, regression, and clustering techniques. As we plotted t
 the matplotlib the result is obtained.
 The mean square error is obtained as 0.01 with the help of the mean_square_error function
 from sklearn library.
+
 Polynomial Regression Model:
 In our python code we used sklearn.preprocessing to implement the polynomial features. To fit
 our Linear regression data and polynomial features with the degree 2 we used the
@@ -17,6 +18,7 @@ After fitting the data, we used the matplotlib to scatter plots and get a plot g
 Later we calculated the mean squared error of the dataset using the polynomial regression with
 the help of mean_square_error library from sklearn library. The mean squared error obtained is
 0.00
+
 3-Layer Neural Network:
 With our dataset we splitted the data as train data as 80% and test data as 20% with the help of
 the train_test_split using the sklearn library. We have normalized the x data using the
